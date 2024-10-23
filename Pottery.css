@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.caption{
+    color: white;
+    position: absolute;
+    width: 500px;
+    bottom: 1px;
+    left: 50px;
+}
+
+hr{
+    padding: 0.1rem;
+}
+
+
+
+
+aside img{
+    position: relative;
+}
+
+
+aside div{
+    position: absolute;
+    top: 395rem;
+    left: 5rem;
+    z-index: 1;
+}
+
+footer{
+    position: relative;
+}
+
+
+footer input{
+    background-color: transparent;
+    border-color: white;
+}
+
+
+
+    
