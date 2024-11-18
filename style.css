@@ -1,44 +1,48 @@
 body {
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
 
-.caption{
-    color: white;
-    position: absolute;
-    width: 500px;
-    bottom: 1px;
-    left: 50px;
-}
-
-hr{
-    padding: 0.1rem;
-}
-
-
-
-
-aside img{
+article img{
+    z-index: 0;
     position: relative;
 }
 
+article div{
+    z-index: 1;
+    position: absolute;
+    bottom: 1rem;
+}
+
+#studio{
+    width: 100%;
+}
+
+#open{
+    width: 100%;
+}
+
+#art img{
+    width:100% !important;
+    height:200.95px !important;
+}
+
+aside img{
+    position:static;
+    z-index: 0;
+}
 
 aside div{
-    position: absolute;
-    top: 388rem;
-    left: 5rem;
     z-index: 1;
+    position:absolute ;
+    left: 22rem;
+    top: 356rem;
 }
 
 footer{
-    position: relative;
+    position: static;
+    z-index: 0;
 }
-
-
-footer input{
-    background-color: transparent;
-    border-color: white;
-}
-
-
-
-    
